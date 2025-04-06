@@ -2,7 +2,7 @@ name: Trigger Fly Export
 
 on:
   schedule:
-   - cron: '30 18 * * *'  # ← Runs at 20:30 NL / 18:30 UTC
+   - cron: '50 18 * * *'  # ← Runs at 20:30 NL / 18:30 UTC
   workflow_dispatch:       # ← Optional, lets you also trigger it manually
 
 jobs:
@@ -11,7 +11,10 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v4
-
+        
+      - name: Create data folder
+        run: mkdir -p data
+    
       - name: Download CSV from Fly.io
         run: |
           timestamp=$(date +"%Y-%m-%dT%H-%M-%S")
