@@ -2,7 +2,7 @@ name: Trigger Fly Export
 
 on:
   schedule:
-   - cron: '05 19 * * *'  # ← Runs at 20:30 NL / 18:30 UTC
+   - cron: '00 22 * * *'  # ← Runs at 00:00 NL / 22:00 UTC
   workflow_dispatch:       # ← Optional, lets you also trigger it manually
 
 jobs:
