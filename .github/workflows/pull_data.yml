@@ -2,16 +2,18 @@ name: Trigger Fly Export
 
 on:
   schedule:
-   - cron: '50 18 * * *'  # ← Runs at 20:30 NL / 18:30 UTC
+   - cron: '05 19 * * *'  # ← Runs at 20:30 NL / 18:30 UTC
   workflow_dispatch:       # ← Optional, lets you also trigger it manually
 
 jobs:
   download-export:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout this repo
+      - name: Checkout this repo with PAT
         uses: actions/checkout@v4
-        
+        with:
+          token: ${{ secrets.GH_PAT }}
+          
       - name: Create data folder
         run: mkdir -p data
     
