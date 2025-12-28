@@ -1,0 +1,3 @@
+message_id,topic,device_dt,temp_device,temp_hive,temp,humidity_hive,humidity,pressure,co2,light_intensity,version,ab_bin1,ab_bin2,ab_bin3,ab_bin4,ab_bin5,ab_bin6,ab_bin7,ab_bin8,ab_bin9,ab_bin10,gb_bin1,gb_bin2,gb_bin3,gb_bin4,gb_bin5
+00064700AA121733DE4E033960C40002,v001/c00002/d001,2025-12-28T10:36:02+0000,53.3,32.3,11.2,100.0,96.9,671.9,1058,16677.5,0014,1,0,28,0,0,6,0,0,7,0,0,0,0,0,0
+000647011557462EDE4E0323B3AA0002,v001/c00002/d001,2025-12-28T11:03:54+0000,53.3,32.3,12.9,100.0,96.6,671.9,1001,16195,0014,0,0,17,0,0,13,0,0,1,0,0,0,0,0,0
