@@ -1,0 +1,2 @@
+message_id,topic,device_dt,temp_device,temp_hive,temp,humidity_hive,humidity,pressure,co2,light_intensity,version,ab_bin1,ab_bin2,ab_bin3,ab_bin4,ab_bin5,ab_bin6,ab_bin7,ab_bin8,ab_bin9,ab_bin10,gb_bin1,gb_bin2,gb_bin3,gb_bin4,gb_bin5
+000650908FDFD0DCE9F81EDA8C10008A,v001/c00004/d001,2026-04-29T03:33:05+0000,53.3,33.9,7.0,58.9,53.9,1027.6,39990,0,0014,25,20,20,10,11,15,5,15,17,13,36436,10949,6076,4589,3676
